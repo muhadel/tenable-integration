@@ -1,0 +1,550 @@
+/********** Add Your Global CSS Here **********/
+
+body {
+  -webkit-overflow-scrolling: touch;
+}
+/* remove input number spinner */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* for mozilla */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6,
+html a,
+html p,
+html li,
+input,
+textarea,
+span,
+div,
+html,
+body,
+html a {
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+html ul {
+  -webkit-padding-start: 0px;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.scrollbar-track-y,
+.scrollbar-thumb-y {
+  width: 5px !important;
+}
+
+.scrollbar-track-x,
+.scrollbar-thumb-x {
+  height: 5px !important;
+}
+
+.scrollbar-thumb {
+  border-radius: 0 !important;
+}
+
+.scrollbar-track {
+  background: rgba(222, 222, 222, 0.15) !important;
+}
+
+.scrollbar-thumb {
+  border-radius: 0 !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.ant-popover-placement-bottom > .ant-popover-content > .ant-popover-arrow:after,
+.ant-popover-placement-bottomLeft
+  > .ant-popover-content
+  > .ant-popover-arrow:after,
+.ant-popover-placement-bottomRight
+  > .ant-popover-content
+  > .ant-popover-arrow:after,
+.ant-popover-placement-top > .ant-popover-content > .ant-popover-arrow:after,
+.ant-popover-placement-topLeft
+  > .ant-popover-content
+  > .ant-popover-arrow:after,
+.ant-popover-placement-topRight
+  > .ant-popover-content
+  > .ant-popover-arrow:after {
+  left: 0;
+  margin-left: -4px;
+}
+
+/********** Add Your Global RTL CSS Here **********/
+
+/* Popover */
+
+html[dir="rtl"] .ant-popover {
+  text-align: right;
+}
+
+/* Ecommerce Card */
+
+html[dir="rtl"] .isoCardInfoForm .ant-input {
+  text-align: right;
+}
+
+/* Modal */
+
+html[dir="rtl"] .has-success.has-feedback:after,
+html[dir="rtl"] .has-warning.has-feedback:after,
+html[dir="rtl"] .has-error.has-feedback:after,
+html[dir="rtl"] .is-validating.has-feedback:after {
+  left: 0;
+  right: auto;
+}
+
+html[dir="rtl"] .ant-modal-close {
+  right: inherit;
+  left: 0;
+}
+
+html[dir="rtl"] .ant-modal-footer {
+  text-align: left;
+}
+
+html[dir="rtl"] .ant-modal-footer button + button {
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+html[dir="rtl"] .ant-confirm-body .ant-confirm-content {
+  margin-right: 42px;
+}
+
+html[dir="rtl"] .ant-btn > .anticon + span,
+html[dir="rtl"] .ant-btn > span + .anticon {
+  margin-right: 0.5em;
+}
+
+html[dir="rtl"] .ant-btn-loading span {
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+
+html[dir="rtl"]
+  .ant-btn.ant-btn-loading:not(.ant-btn-circle):not(.ant-btn-circle-outline) {
+  padding-left: 25px;
+  padding-right: 29px;
+}
+
+html[dir="rtl"]
+  .ant-btn.ant-btn-loading:not(.ant-btn-circle):not(.ant-btn-circle-outline)
+  .anticon {
+  margin-right: -14px;
+  margin-left: 0;
+}
+
+/* Confirm */
+
+html[dir="rtl"] .ant-modal.ant-confirm .ant-confirm-body > .anticon {
+  margin-left: 16px;
+  margin-right: 0;
+  float: right;
+}
+
+html[dir="rtl"] .ant-modal.ant-confirm .ant-confirm-btns {
+  float: left;
+}
+
+html[dir="rtl"] .ant-modal.ant-confirm .ant-confirm-btns button + button {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+/* Message */
+
+html[dir="rtl"] .ant-message .anticon {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+/* Pop Confirm */
+
+html[dir="rtl"] .ant-popover-message-title {
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+html[dir="rtl"] .ant-popover-buttons {
+  text-align: left;
+}
+
+/* Notification */
+
+html[dir="rtl"]
+  .ant-notification-notice-closable
+  .ant-notification-notice-message {
+  padding-left: 24px;
+  padding-right: 0;
+}
+
+html[dir="rtl"]
+  .ant-notification-notice-with-icon
+  .ant-notification-notice-message,
+html[dir="rtl"]
+  .ant-notification-notice-with-icon
+  .ant-notification-notice-description {
+  margin-right: 48px;
+}
+
+html[dir="rtl"] .ant-notification-notice-close {
+  right: auto;
+  left: 16px;
+}
+
+html[dir="rtl"] .ant-notification-notice-with-icon {
+  left: 0;
+}
+
+/* Dropzone */
+
+html[dir="rtl"] .dz-hidden-input {
+  display: none;
+}
+/* adelllllllllllllllllllllllllllllllllllllllll */
+
+.analytics-box {
+  background-color: #fff;
+  padding: 10px 10px 0px 10px;
+  border-radius: 2px;
+  margin-top: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.analytics-box-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12pt;
+  margin-bottom: 0px;
+}
+.analytics-box-number {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 19pt;
+  margin-top: 0px;
+  float: left;
+  margin-right: 10px;
+}
+.analytics-box-single-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 9pt;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  float: left;
+  /*max-width: 30px;*/
+}
+.analytics-box-single-number {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 17pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.analytics-box-tick-positive {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 9pt;
+  margin-top: 8px;
+  color: green;
+}
+.analytics-box-text-positive {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 7pt;
+  margin-top: 0px;
+  color: green;
+}
+.analytics-box-tick-negative {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 9pt;
+  margin-top: 8px;
+  color: red;
+}
+.analytics-box-text-negative {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 7pt;
+  margin-top: 0px;
+  color: red;
+}
+.analytics-box-tick-neutral {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 9pt;
+  margin-top: 8px;
+  color: #8f8f8f;
+}
+.analytics-box-text-neutral {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 7pt;
+  margin-top: 0px;
+  color: #8f8f8f;
+}
+.analytics-box-tick-box {
+  margin-bottom: 20px;
+  float: right;
+}
+.currency {
+  font-family: "Montserrat", sans-serif;
+  font-size: 8pt;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.centerLoader {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* view product style */
+.product-image-box {
+  background-color: #fff;
+  padding: 15px 15px 15px 15px;
+  border-radius: 0.25rem;
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.product-price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 18pt;
+  margin-top: 0px;
+}
+.currency {
+  font-family: "Montserrat", sans-serif;
+  font-size: 8pt;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.product-left-data {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 10pt;
+  margin-top: 10px;
+}
+.product-data-box {
+  background-color: #fff;
+  padding: 15px 15px 15px 15px;
+  border-radius: 0 0.25rem 0 0.25rem;
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.product-details-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 11pt !important;
+}
+.product-details-text {
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 100; */
+  font-size: 11pt;
+}
+.xs-btn {
+  font-size: 8pt;
+  padding: 5px;
+  margin: 20px 10px 10px 10px;
+  background-color: #fff;
+  border: none;
+  color: #2e4369;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.xs-btn:hover {
+  background-color: #fff;
+  color: #2e4369;
+  border: none;
+  transition: box-shadow 0.15s ease-in-out;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
+}
+.blue-color {
+  color: #2e4369;
+}
+
+.edit-button {
+  background-color: #fff;
+  border: none;
+  color: #2e4369;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  padding: 5px;
+  border-radius: 0.25rem;
+  font-size: 8pt;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-left: 10px;
+  transition: box-shadow 0.15s ease-in-out;
+}
+.edit-button:hover {
+  background-color: #fff;
+  color: #2e4369;
+  border: none;
+  transition: box-shadow 0.15s ease-in-out;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* .nav-link {
+  background-color: #fff;
+  padding: 0px;
+  margin: 0px;
+} */
+
+.image-box {
+  border: none;
+  padding-left: 0px;
+}
+.uploadimage:hover {
+  cursor: pointer;
+}
+
+.Toastify-msg {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #001433;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Montserrat", sans-serif !important;
+  margin-bottom: 0px;
+  line-height: 1.6;
+  cursor: pointer;
+  direction: ltr;
+}
+
+.toast-success {
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+  border-top-color: rgb(235, 237, 240);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top: 2px solid #2c9266;
+  box-shadow: 0 -1px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.gog {
+  border-top: "2px solid #2c9266";
+  color: "#000";
+  min-height: "60px";
+  border-radius: "8px";
+  box-shadow: "2px 2px 20px 2px rgba(0,0,0,0.3)";
+}
+
+.product-image-box svg {
+  width: 100%;
+}
+
+.barcode-image-box svg {
+  width: 100%;
+}
+.nomargin-tabs .ant-tabs-bar {
+  margin-bottom: 0px !important;
+}
+/* Invoice style starts */
+
+.invoice-header {
+  font-family: "Montserrat", sans-serif;
+}
+.invoice-header p {
+  font-size: 10pt;
+  margin-bottom: 0px;
+}
+.invoice-header h6 {
+  font-weight: 700;
+  font-size: 12pt;
+}
+table {
+  font-family: "Montserrat", sans-serif;
+}
+table th {
+  font-weight: 600;
+}
+table td {
+  font-weight: 300;
+}
+.final_amounts {
+  border: none !important;
+}
+.final_bold {
+  font-weight: 600;
+}
+
+.final_total {
+  font-size: 16pt;
+  font-weight: 800;
+}
+.final_header {
+  font-size: 12pt !important;
+}
+/* invoice style end */
+
+/* add supply style */
+.product-details-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 11pt !important;
+}
+.product-details-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 11pt;
+}
+.xs-btn {
+  font-size: 8pt;
+  padding: 5px;
+  margin: 20px 10px 10px 10px;
+  background-color: #fff;
+  border: none;
+  color: #2e4369;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.xs-btn:hover {
+  background-color: #fff;
+  color: #2e4369;
+  border: none;
+  transition: box-shadow 0.15s ease-in-out;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
+}
+.product-details-title_1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 15pt !important;
+}
+.product-details-title_2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 11pt !important;
+  margin-top: 30px;
+}
+
+.categoryColor {
+  /* background: rgb(123, 220, 181); */
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  float: left;
+  border-radius: 4px;
+  margin: 0px 6px 6px 0px;
+}
+
+.aside-product-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 20pt !important;
+  margin-top: 30px;
+}

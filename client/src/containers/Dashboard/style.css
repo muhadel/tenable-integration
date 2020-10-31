@@ -1,0 +1,87 @@
+.analytics-box {
+  background-color: #fff;
+  padding: 10px 10px 0px 10px;
+  border-radius: 2px;
+  margin-top: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.analytics-box-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12pt;
+  margin-bottom: 0px;
+}
+.analytics-box-number {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 19pt;
+  margin-top: 0px;
+  float: left;
+  margin-right: 10px;
+}
+.analytics-box-single-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 9pt;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  float: left;
+  /*max-width: 30px;*/
+}
+.analytics-box-single-number {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 25pt;
+  margin-top: 0px;
+}
+.analytics-box-tick-positive {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 9pt;
+  margin-top: 8px;
+  color: green;
+}
+.analytics-box-text-positive {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 7pt;
+  margin-top: 0px;
+  color: green;
+}
+.analytics-box-tick-negative {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 9pt;
+  margin-top: 8px;
+  color: red;
+}
+.analytics-box-text-negative {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 7pt;
+  margin-top: 0px;
+  color: red;
+}
+.analytics-box-tick-neutral {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 9pt;
+  margin-top: 8px;
+  color: #8f8f8f;
+}
+.analytics-box-text-neutral {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 7pt;
+  margin-top: 0px;
+  color: #8f8f8f;
+}
+.analytics-box-tick-box {
+  margin-bottom: 20px;
+  float: right;
+}
+.currency {
+  font-family: "Montserrat", sans-serif;
+  font-size: 8pt;
+  margin-bottom: 0px;
+  font-weight: 500;
+}

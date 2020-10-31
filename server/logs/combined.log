@@ -1,0 +1,6 @@
+{"message":"das","level":"info","service":"user-service"}
+{"message":"das","level":"info","service":"user-service"}
+{"message":"das","level":"info","service":"user-service"}
+{"level":"info","message":"This is an information message."}
+{"level":"info","message":"This is an information message."}
+{"level":"error","service":"user-service"}
