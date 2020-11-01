@@ -23,6 +23,7 @@ module.exports = {
   host: HOST || 'localhost',
   port: PORT || '5000',
   prefix: '/api',
+  nonSecureRoutes: ['/', '/api/swagger'],
   jwt: {
     secret: JWT_SECRET_KEY || 'mysupersecretkey',
     expires: JWT_EXPIRES_IN || '10h',
