@@ -1,5 +1,7 @@
 import axios from 'axios';
 
+import { ROOT_URL } from '../keys';
+
 const actions = {
   //get
   GET_ASSETS: 'GET_ASSETS',
@@ -7,7 +9,7 @@ const actions = {
 
   getAssets: () => (dispatch) => {
     axios
-      .get(`http://localhost:5001/api/tenable/assets`)
+      .get(`${ROOT_URL}/api/tenable/assets`)
       .then((res) => {
         console.log('res', res);
         dispatch({

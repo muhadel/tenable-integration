@@ -10,7 +10,7 @@ import { prefix } from '../config';
 
 export default (app) => {
   app.use(express.static(path.join(__dirname, '../public')));
-  // app.set('trust proxy', 1);
+  app.set('trust proxy', 1);
   app.use(cors());
   // parse application/x-www-form-urlencoded
   app.use(bodyParser.urlencoded({ extended: false, limit: '1000kb' }));

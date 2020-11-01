@@ -1,5 +1,5 @@
 #!/bin/bash
-TENABLE_HOME_PATH="/srv/tenable-integration"
+TENABLE_HOME_PATH="/usr/share/nginx/html/tenable-integration"
 
 # Start applications
 echo "Start the server application"

@@ -16,15 +16,15 @@ export const login = async (req, res) => {
           token: 'Bearer ' + token,
         });
       } else {
-        return res.status(400).json({ error: 'Incorrect password, try again.' });
+        return res.status(400).json({ error: 'Incorrect password, try again' });
       }
     } else {
-      return res.status(400).json({ error: 'User not found.' });
+      return res.status(400).json({ error: 'User not found' });
     }
   } catch (error) {
     console.log('error', error);
 
     winston.error(error);
-    return res.status(500).json({ error: 'Something went wrong.' });
+    return res.status(500).json({ error: 'Something went wrong' });
   }
 };

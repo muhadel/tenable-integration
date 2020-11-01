@@ -65,8 +65,6 @@ class SignIn extends Component {
 
   render() {
     const { errors } = this.state;
-    console.log('errors', errors);
-
     const from = { pathname: '/dashboard' };
     const { redirectToReferrer } = this.state;
 
